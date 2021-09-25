@@ -13,6 +13,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, NinerCraft.MOD_ID);
 
     public static final RegistryObject<Item> NINER_CREST = ITEMS.register("niner_crest", () -> new Item(new Item.Properties().group(ModItemGroup.NINERCRAFT_GROUP)));
+    public static final RegistryObject<Item> FOOLS_GOLD = ITEMS.register("fools_gold", () -> new Item(new Item.Properties().group(ModItemGroup.NINERCRAFT_GROUP)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

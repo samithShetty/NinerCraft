@@ -1,6 +1,7 @@
 {
-    "item.ninercraft.niner_crest" : "Niner Crest",
-
+    "item.ninercraft.niner_crest": "Niner Crest",
+    "item.ninercraft.fools_gold": "Fool's Gold",
+    "block.ninercraft.fools_gold_ore": "Fool's Gold Ore",
 
     "itemGroup.ninerCraftTab":  "Niner Craft"
 }

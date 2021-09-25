@@ -19,6 +19,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
+import com.samith.ninercraft.block.ModBlocks;
 import com.samith.ninercraft.item.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -35,6 +36,8 @@ public class NinerCraft
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
